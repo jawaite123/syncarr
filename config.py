@@ -302,6 +302,8 @@ if radarrA_url and radarrB_url:
     instanceA_profile_filter_id = radarrA_profile_filter_id
     instanceA_language = radarrA_language
     instanceA_language_id = radarrA_language_id
+    instanceA_tag_filter = radarrA_tag_filter and radarrA_tag_filter.split(',')
+    instanceA_tag_filter_id = radarrA_tag_filter_id and radarrA_tag_filter_id.split(',')
     instanceA_quality_match = radarrA_quality_match
     instanceA_blacklist = radarrA_blacklist
 
@@ -314,6 +316,8 @@ if radarrA_url and radarrB_url:
     instanceB_profile_filter_id = radarrB_profile_filter_id
     instanceB_language = radarrB_language
     instanceB_language_id = radarrB_language_id
+    instanceB_tag_filter = radarrB_tag_filter and radarrB_tag_filter.split(',')
+    instanceB_tag_filter_id = radarrB_tag_filter_id and radarrB_tag_filter_id.split(',')
     instanceB_quality_match = radarrB_quality_match
     instanceB_blacklist = radarrB_blacklist
 
